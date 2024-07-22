@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCD00"
+    android:id="@+id/t">
+    <TableRow
+        android:weightSum="4">
+        <TextView
+            android:id="@+id/a"
+            android:layout_weight="1"
+            android:text="دوار المنارة"
+            android:gravity="center"
+            android:padding="5dip"
+            android:layout_height="wrap_content"
+            android:textSize="50dip"
+            android:background="@drawable/textviewstyle"
+            android:layout_width="fill_parent" />
+        <TextView
+            android:id="@+id/b"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="رام الله البلد"
+            android:padding="5dip"
+            android:layout_height="wrap_content"
+            android:textSize="50dip"
+            android:background="@drawable/textviewstyle"
+            android:layout_width="fill_parent" />
+        <TextView
+            android:id="@+id/c"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="الطيرة"
+            android:padding="5dip"
+            android:layout_height="wrap_content"
+            android:textSize="50dip"
+            android:background="@drawable/textviewstyle"
+            android:layout_width="fill_parent" />
+        <TextView
+            android:id="@+id/d"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="المصيون"
+            android:padding="5dip"
+            android:layout_height="wrap_content"
+            android:textSize="50dip"
+            android:background="@drawable/textviewstyle"
+            android:layout_width="fill_parent" />
+    </TableRow>
+
+    <TableRow
+        android:weightSum="4">
+        <TextView
+            android:id="@+id/aa"
+            android:layout_weight="1"
+            android:text="الجامعة"
+            android:gravity="center"
+            android:padding="5dip"
+            android:layout_height="wrap_content"
+            android:textSize="50dip"
+            android:background="@drawable/textviewstyle"
+            android:layout_width="fill_parent" />
+        <TextView
+            android:id="@+id/bb"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="المرج"
+            android:padding="5dip"
+            android:layout_height="wrap_content"
+            android:textSize="50dip"
+            android:background="@drawable/textviewstyle"
+            android:layout_width="fill_parent" />
+        <TextView
+            android:id="@+id/cc"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="دوار ابو جسار"
+            android:padding="5dip"
+            android:layout_height="wrap_content"
+            android:textSize="50dip"
+            android:background="@drawable/textviewstyle"
+            android:layout_width="fill_parent" />
+        <TextView
+            android:id="@+id/dd"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="بلازا مول"
+            android:padding="5dip"
+            android:layout_height="wrap_content"
+            android:textSize="50dip"
+            android:background="@drawable/textviewstyle"
+            android:layout_width="fill_parent" />
+    </TableRow>
+
+</TableLayout>
